@@ -33,20 +33,19 @@ Upload the data file from Kaggle to your Google drive and then access it
 
 house_df = pd.read_csv('/content/drive/My Drive/Colab Notebooks/kc-house-data.csv', encoding = 'ISO-8859-1')
 
-# Step 3:
-Visualize the dataset using Seaborn, a python library
+# Step 3: Visualize the dataset using Seaborn, a python library
 
 sns.scatterplot(x = 'sqft_living', y = 'price', data = house_df)
 See more steps in the colab.
 
-# Step 4:
-Create testing and training data set and clean the data. See steps in the colab.
+# Step 4: Create testing and training data set and clean the data. 
+See steps in the colab.
 
-# Step 5:
-Train the Model. See steps in the colab.
+# Step 5: Train the Model. 
+See steps in the colab.
 
-# Step 6:
-Evaluate the Model. See steps in the colab.
+# Step 6: Evaluate the Model. 
+See steps in the colab.
 
-# Step 7:
+# Step 7: Improve the Model
 If you are not satisfied with the results, then you can increase the number of independent variables and retrain the same model. See steps in the colab.
